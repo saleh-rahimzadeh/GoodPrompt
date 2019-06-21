@@ -6,10 +6,10 @@ A prompt with _marker_, _path_, _separator bar_, _time_, _command id_ and _comma
 
 ## Screenshots
 Interface:  
-![Interface](.\assets\interface.png)
+![Interface](assets/interface.png)
 
 Structure:  
-![Structure](.\assets\structure.png)
+![Structure](assets/structure.png)
 
 ## Details
 - **Prompt Marker**: Indicating begin of a new prompt.
