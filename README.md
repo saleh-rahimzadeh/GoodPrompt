@@ -12,12 +12,13 @@ Structure:
 ![Structure](assets/structure.png)
 
 ## Details
-- **Prompt Marker**: Indicating begin of a new prompt.
+- **Prompt marker**: Indicating begin of a new prompt.
 - **Path**: Current path and address.
 - **Time**: Time of start of current prompt, indeed, execution time of last command.
 - **Command ID**: ID for new command (You can use this ID to refer to the command later or use it in TAB completion).
 - **Separator bar**: A bar for separating new command from previous command.
-- **Command Marker**: Indicating begin of new command and displaying cursor, it can also display nested prompts.
+- **Command marker**: Indicating begin of new command and displaying cursor, it also displays nested prompts by repeated marker.
+- **Debug mode**: Indicating whether is in debugging mode or not.
 
 ## Installation
 Simply, put content of `GoodPrompt.ps1` to your PowerShell's profile and reopen PowerShell.
