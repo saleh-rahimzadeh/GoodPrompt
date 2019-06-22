@@ -1,10 +1,8 @@
-<#>
- ##############################################################################
+<#----------------------------------------------------------------------------#
  # GoodPrompt                                                                 #
- # Copyright (C) 2019 Saleh Rahimzadeh                                        #
+ # Copyright (C) Saleh Rahimzadeh                                             #
  # https://github.com/saleh-rahimzadeh/GoodPrompt                             #
- ##############################################################################
-<#>
+ #----------------------------------------------------------------------------#>
 
 function Prompt {
     <# Preparing details and information of prompt as a data dictionary #>
