@@ -15,7 +15,7 @@ Structure:
 - **Prompt Marker**: Indicating begin of a new prompt.
 - **Path**: Current path and address.
 - **Time**: Time of start of current prompt, indeed, execution time of last command.
-- **Command ID**: ID for this new command (You can use this ID to refer to this command later or use it in TAB completion).
+- **Command ID**: ID for new command (You can use this ID to refer to the command later or use it in TAB completion).
 - **Separator bar**: A bar for separating new command from previous command.
 - **Command Marker**: Indicating begin of new command and displaying cursor, it can also display nested prompts.
 
@@ -29,7 +29,7 @@ See `about_Prompts` help topic for more information:
 PS> get-help about_Prompts
 ```
 
-## Guides
+## Command ID
 You can use **Command ID** and TAB completion to recall and select a command from history.  
 Simply, type Command ID precede '#' sign and press \<TAB\> key:
 ```
@@ -46,6 +46,13 @@ PS> h
 PS> history
 PS> Get-History
 ```
+
+## Dependencies
+Requirment is [PowerShell Core 6](https://github.com/powershell/powershell) and above.  
+
+To run on PowerShell 5 and below, replace `` `u{####} `` codes with `$([char]0x####)`.
+
+Example: `` "`u{2592}" `` replace to `"$([char]0x2592)"`.
 
 ## Contributing
 Everyone can contribute to this project, improving the code or adding functions. 
