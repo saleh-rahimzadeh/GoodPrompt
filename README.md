@@ -84,6 +84,12 @@ Example: `` "`u{2592}" `` replace to `"$([char]0x2592)"`.
 
 
 
+## Another edition
+There is another edition named "WellPrompt.ps1".  
+It is neat and has more simple interface (also better performance).
+
+
+
 ## Contributing
 Everyone can contribute to this project, improving the code or adding functions. 
 
