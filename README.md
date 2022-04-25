@@ -31,7 +31,7 @@ Structure:
 ## Installation
 Simply, put content of `GoodPrompt.ps1` to your PowerShell's profile and reopen PowerShell.
 
-To create a profile, execute [Create-Profile.ps1](https://gist.github.com/saleh-rahimzadeh/c8833ade49e10513ad9ac3df275aecdb) gist on your local machine.  
+To create a profile, execute [Create-Profile.ps1](https://github.com/saleh-rahimzadeh/GoodPrompt/blob/master/Create-Profile.ps1) script on your local machine.  
 
 See `about_Prompts` help topic for more information:
 ```powershell
